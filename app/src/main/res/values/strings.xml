@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Litchi Print</string>
+	<string name="navigate_root_my_webstorage">My WebStorage</string>
+	<string name="common_no_item_found">No items found in this folder. You may create a new file or upload from SD in Menu. </string>
+</resources>

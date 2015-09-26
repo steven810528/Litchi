@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="@drawable/listview_background"
+    >
+    <ProgressBar android:id="@+android:id/progress"
+        android:layout_width="36dip"
+        android:layout_height="36dip" 
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="8dip"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+	/>
+    <ImageView
+		android:id="@+id/iconid"
+        android:layout_width="36dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="8dip"
+        android:src="@drawable/icon_list_doc"
+        android:visibility="visible"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/toptext"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:text="阿瑞在睡覺.jpg"
+            android:textColor="#4b78bb"
+            android:textSize="15sp"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:visibility="visible"
+        />
+        <LinearLayout
+	        android:orientation="horizontal"
+        	android:layout_width="fill_parent"
+        	android:layout_height="0dip"
+            android:layout_weight="1"
+			android:gravity="center_vertical"
+            >
+            
+	        <TextView
+	            android:id="@+id/bottomtext"
+	            android:layout_width="0dp"
+            	android:layout_weight="1"        
+	            android:layout_height="wrap_content"
+	            android:text="26MB, Last Modified-2010/01/01 14:20"
+	            android:textColor="#9d9d9d"
+	            android:textSize="11sp"
+	            android:singleLine="true"
+	            android:visibility="visible"
+	        	/>
+			
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
